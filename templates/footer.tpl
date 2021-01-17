@@ -25,7 +25,7 @@
 
 		<script>
 			window.addEventListener('load', function () {
-				require(['forum/footer']);
+				//require(['forum/footer']);
 
 				<!-- IF useCustomJS -->
 				{{customJS}}
