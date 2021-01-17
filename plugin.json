@@ -1,9 +1,10 @@
 {
-	"id": "nodebb-theme-material",
+	"id": "nodebb-theme-material-wtf21",
 	"library": "./lib/theme.js",
 	"hooks": [
 		{
-			"hook": "static:app.load", "method": "init"
+			"hook": "static:app.load", "method": "init",
+			"hook": "static:app.load", "method": "appLoad"
 		},
 		{
 			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
@@ -19,7 +20,10 @@
 		},
 		{
 			"hook": "filter:user.getSettings", "method": "getSettings"
-		}
+		},
+		{
+ 			"hook": "filter:widgets.getAreas", "method": "defineWidgetAreas", "callbacked": true
+ 		}
 	],
 	"scripts": [
 		"lib/material.js",

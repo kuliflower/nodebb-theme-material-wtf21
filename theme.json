@@ -1,7 +1,8 @@
 {
-    "id": "nodebb-theme-material",
-    "name": "Material Design",
-    "description": "Material Design Theme for NodeBB",
-    "url": "https://github.com/pichalite/nodebb-theme-material",
-    "screenshot": "screenshot.png"
+    "id": "nodebb-theme-material-wtf21",
+    "name": "Material Design for WestsTigersForum 2021",
+    "description": "Material Design Theme for NodeBB & WestsTigersForum.com",
+    "url": "https://github.com/kuliflower/nodebb-theme-material-wtf21",
+    "screenshot": "screenshot.png",
+    "base": "nodebb-theme-material"
 }

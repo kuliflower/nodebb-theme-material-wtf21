@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-material-wtf21",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "nbbpm": {
     "compatibility": "^1.12.0"
   },
@@ -8,7 +8,7 @@
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kuliflower/nodebb-theme-material-wtf21"
+    "url": "git+https://github.com/kuliflower/nodebb-theme-material-wtf21.git"
   },
   "keywords": [
     "nodebb",
@@ -17,11 +17,16 @@
     "theme",
     "themes"
   ],
-  "author": {
-    "name": "kul",
-    "email": "mail@kbkalamae.com"
-  },
+  "author": "kul <mail@kbkalamae.com>",
   "bugs": {
     "url": "https://github.com/kuliflower/nodebb-theme-material-wtf21/issues"
-  }
+  },
+  "homepage": "https://github.com/kuliflower/nodebb-theme-material-wtf21#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
