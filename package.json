@@ -1,14 +1,14 @@
 {
-  "name": "nodebb-theme-material",
-  "version": "2.12.9",
+  "name": "nodebb-theme-material-wtf21",
+  "version": "1.0.1",
   "nbbpm": {
     "compatibility": "^1.12.0"
   },
-  "description": "Material Design theme for NodeBB",
+  "description": "Material Design theme for WestsTigersForum.com 2021",
   "main": "theme.less",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pichalite/nodebb-theme-material"
+    "url": "https://github.com/kuliflower/nodebb-theme-material-wtf21"
   },
   "keywords": [
     "nodebb",
@@ -18,10 +18,10 @@
     "themes"
   ],
   "author": {
-    "name": "pichalite",
-    "email": "pichalite.com@gmail.com"
+    "name": "kul",
+    "email": "mail@kbkalamae.com"
   },
   "bugs": {
-    "url": "https://github.com/pichalite/nodebb-theme-material/issues"
+    "url": "https://github.com/kuliflower/nodebb-theme-material-wtf21/issues"
   }
 }
